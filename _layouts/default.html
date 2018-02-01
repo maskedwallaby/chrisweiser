@@ -1,27 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-
-    </head>
+      {% include head.html %}
+  </head>
     <body>
 
-        <div class="site">
-          <div class="header">
+        <div class="site-wrapper">
+
+          <header class="site-header">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
+            {% include nav.html %}
+          </header>
+          
+          <main class="site-content">
           {{ content }}
+          </main>
 
-
-          <div class="footer">
+          <div class="site-footer">
             <div class="contact">
               <p>
                 Your Name is<br />

@@ -1,4 +1,4 @@
-name: Your New Jekyll Site
+name: Chris Weiser's Web Design Portfolio
 markdown: redcarpet
 highlighter: pygments # or rouge or null
-exclude: ["node_modules", "gulpfile.js", "package.json"]
+exclude: ["node_modules", "gulpfile.js", "package.json", "chrisweiser-portfoliosite.sublime-project", "chrisweiser-portfoliosite.sublime-workspace"]

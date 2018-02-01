@@ -1,0 +1,62 @@
+@import "typefaces";
+
+::-moz-selection {
+    background-color: $color-secondary;
+    color: white;
+}
+::selection {
+    background-color: $color-secondary;
+    color: white;
+}
+
+body {
+    font-size: 1.125em;
+    line-height: 1.325;
+}
+
+.site-content {
+    @include typeface-body;
+    line-height: 1.5;
+}
+
+a,
+a:visited {
+    color: $color-primary;
+}
+a:hover {
+    color: lighten($color-secondary, 10%);
+    color: $color-secondary;
+    text-decoration-color: $color-primary;
+}
+
+.site-header__title,
+.site-header__subhead,
+.page-title,
+.section-heading {
+    @include typeface-headings;
+}
+
+.section-content {
+    @include typeface-body;
+}
+
+.site-header__title {
+    font-size: 3rem;
+    margin-bottom: 0.25rem;
+    text-indent: -0.5rem;
+    //color: $color-primary;
+}
+.site-header__subhead {
+    margin-top: 0;
+    color: $color-primary;
+}
+.emphasis {
+    @include typeface-body;
+    font-size: inherit;
+    font-style: italic;
+    color: $color-secondary;
+}
+
+.site-footer {
+    @include typeface-body; 
+}
