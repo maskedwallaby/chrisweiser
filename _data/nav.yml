@@ -1,0 +1,15 @@
+nav_list_title: Main Navigation
+
+pages:
+
+- title: Portfolio
+  url: portfolio.html
+
+- title: Bio
+  url: bio.html
+
+- title: Contact Me
+  url: contact.html
+
+- title: Blog
+  url: blog.html

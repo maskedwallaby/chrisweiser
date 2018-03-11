@@ -1,0 +1,32 @@
+// ------------------ Typography ------------------ //
+
+$type-systemui_stack: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+$typeface-headings: "League Spartan", sans-serif;
+$typeface-body: "Libre Baskerville", serif;
+
+$type-size--base:   16px;
+$type-weight--base: 400;
+$type-size--small:  $type-size--base * 0.875;
+$line-height: 1.325;
+$line-height-tall: 1.5;
+
+
+// ------------------ Spacing ------------------ //
+
+$spacing-unit:     30px;
+
+
+// ------------------ Color  ------------------ //
+
+$color-blue: #1A3F62;
+$color-yellow: #F2DEA0;
+$color-red: #BE3D54;
+$color-gray: #ddd;
+
+$color-primary: $color-blue; 
+$color-secondary: $color-red;
+$color-tertiary: $color-yellow;
+
+$pad: 20px;
+$x-height: $type-size--base / 2;

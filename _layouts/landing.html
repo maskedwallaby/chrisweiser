@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      {% include head.html %}
+  </head>
+    <body>
+
+        <div class="site-wrapper">
+
+        {{content}}
+
+          <hr />
+
+          <div class="site-footer">
+            <div class="contact-info" role="contentinfo">
+              &copy; {{ site.time | date: '%Y' }} Chris Weiser
+            </div>
+            <!-- <div class="contact">
+              <p>
+                View my portfolio at <a href="https://www.behance.net/ChrisWeiser">behance.net/ChrisWeiser</a><br />
+                Follow me at <a href="https://twitter.com/chrisweiser">twitter.com/chrisweiser</a><br />
+              </p>
+            </div> -->
+          </div>
+        </div>
+
+    </body>
+</html>
